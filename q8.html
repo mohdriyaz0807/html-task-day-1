@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<legend>Form Elements</legend>
+<form>
+<fieldset>
+<form>
+  <label for="name">Name:</label><br>
+  <input type="text" id="name"> <br><br>
+    <label for="Dropdown">Dropdown List:</label><br>
+	<select id="Dropdown">
+    <option value="default">
+    Default
+    </option>
+    </select><br><br>
+    <p>Message</p>
+<textarea name="message" rows="10" cols="30">
+Type here...</textarea><br><br>
+<p>Button type</p>
+<button type="button" onclick="alert('Ahoy!')">Click Me!</button>
+<br><br>
+<p>Datalist for boolean</p>
+  <input list="boolean" name="boolean">
+<datalist id="boolean">
+<option value="True">
+    <option value="False">
+    </datalist><br>
+      <input type="submit">
+<br><br>
+</form>
+<p>output type element</p>
+<form
+oninput="x.value=parseInt(a.value)+parseInt(b.value)">
+  <input type="number" id="a" name="a" value="50">
+  +
+  <input type="number" id="b" name="b" value="50">
+  =
+  <output name="x" for="a b"></output>
+  <br><br>
+</form>
+</fieldset>
+</form>
+</body>
+</html>
